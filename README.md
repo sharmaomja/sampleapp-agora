@@ -1,37 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## RTC React SDK Reproduced Publish Issue 
 
-## Getting Started
+Publish consistentily fails with the following error while using the react wrapper.
+<img width="731" height="175" alt="Screenshot 2026-05-06 at 10 09 15 AM" src="https://github.com/user-attachments/assets/1ed6ad55-800a-473e-b933-c48d5d256633" />
 
-First, run the development server:
+## Run the code on your system
+
+### Create a `.env` file in the project root:
+
+```env
+NEXT_PUBLIC_AGORA_APP_ID='85f52e1b4c4243f79979f43a466afb6b'
+AGORA_APP_ID='85f52e1b4c4243f79979f43a466afb6b' 
+AGORA_APP_CERTIFICATE='e64c54d2f1b54ba5b7336088f4714d63'
+```
+
+### Start the server 
+
+To run the dev server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# sampleapp-agora
